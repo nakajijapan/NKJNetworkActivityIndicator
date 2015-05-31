@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NKJNetworkActivityIndicator"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A network activity manager that show and hide network activity."
   s.description      = <<-DESC
                        NKJNetworkIndicator. A network activity manager that show and hide network activity.
