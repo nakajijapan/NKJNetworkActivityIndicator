@@ -6,6 +6,4 @@ end
 
 target 'NKJNetworkActivityIndicator_Tests', :exclusive => true do
   pod "NKJNetworkActivityIndicator", :path => "../"
-
-  
 end
