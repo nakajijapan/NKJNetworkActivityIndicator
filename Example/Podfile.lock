@@ -1,0 +1,14 @@
+PODS:
+  - NKJNetworkActivityIndicator (0.1.1)
+
+DEPENDENCIES:
+  - NKJNetworkActivityIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  NKJNetworkActivityIndicator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NKJNetworkActivityIndicator: 5920fab34b6ab486f40e768909eced48bdc5ba08
+
+COCOAPODS: 0.37.2
