@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author           = { "nakajijapan" => "pp.kupepo.gattyanmo@gmail.com" }
   s.source           = { :git => "https://github.com/nakajijapan/NKJNetworkActivityIndicator.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/nakajijapan'
-  s.platform         = :ios, '7.1'
+  s.platform         = :ios, '7.0'
   s.requires_arc     = true
 
   s.source_files = 'Pod/Classes/**/*'
