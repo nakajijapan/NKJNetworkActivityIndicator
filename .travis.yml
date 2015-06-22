@@ -2,12 +2,14 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 language: objective-c
-osx_image: xcode611
 
 before_install:
   - gem install xcpretty
 
-script:
+install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
   - pod install --project-directory=Example/
+
+script:
   - make clean test
   - pod lib lint --quick
